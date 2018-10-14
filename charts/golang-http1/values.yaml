@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.110.91.157:5000/stevef1uk/golang-http1
+  tag: 0.0.2
   pullPolicy: IfNotPresent
 service:
   name: golang-http1
